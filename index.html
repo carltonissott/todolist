@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List:</title>
+    <script src="main.js"defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <p>TO DO LIST:</p>
+    </header>
+    <div class="maincontent">
+        <div class="sidebar">
+            <ul>
+                <li id="title">Projects:</li><hr>
+                <ul id="projectList">
+                    <li class="projectheaders" id="defaultproject"><span onclick="selectProject('defaultproject')" class="projectspanheader"><u>All Tasks</u></span>
+                    </li>
+                </ul>
+                <div class="addProject">
+                    <input type="text" id="projectname" placeholder="New Project Name">
+                    <button id="addProject">+ New Project</button>
+                </div>
+            </ul>
+        </div>
+        <div class="tasks">
+            <div class="addnewtask">
+                <label for="taskName">Task Name:</label>
+                <input type="text" name="taskName" id="taskName">
+                <label for="taskDescription">Task Description:</label>
+                <input type="text" name="taskDescription" id="taskDescription">
+                <label for="importance">Important?</label>
+                <input type="checkbox" name="importance" id="importance" value="important">
+                <label for="dueDate">Due Date:</label>
+                <input type="date" name="dueDate" id="dueDate">
+                <button id="addTask">+ ADD TASK</button>
+            </div>
+            <div id="taskgrid"class="taskGrid">
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
