@@ -2,6 +2,8 @@ import './style.css';
 import {toDoList, newToDo,deleteTask} from './toDo.js';
 import {selectProject,currentProject} from './selectProject'
 import {deleteProject} from './deleteProject.js'
+import Icon1 from '../src/icons8-cancel-50.png'
+import Icon2 from '../src/icons8-close-50.png'
 
 currentProject
 

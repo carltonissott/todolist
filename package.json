@@ -111,5 +111,13 @@
     "wildcard": "^2.0.0",
     "yallist": "^4.0.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carltonissott/todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carltonissott/todolist/issues"
+  },
+  "homepage": "https://github.com/carltonissott/todolist#readme",
   "description": ""
 }
